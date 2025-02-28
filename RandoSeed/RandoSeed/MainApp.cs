@@ -16,5 +16,10 @@ namespace RandoSeed
         {
             InitializeComponent();
         }
+
+        private void MainApp_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

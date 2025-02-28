@@ -1,0 +1,10 @@
+E:\Users\timot\Source\Repos\RandoSeed\RandoSeed\RandoSeed\bin\Debug\RandoSeed.exe.config
+E:\Users\timot\Source\Repos\RandoSeed\RandoSeed\RandoSeed\bin\Debug\RandoSeed.exe
+E:\Users\timot\Source\Repos\RandoSeed\RandoSeed\RandoSeed\bin\Debug\RandoSeed.pdb
+E:\Users\timot\Source\Repos\RandoSeed\RandoSeed\RandoSeed\obj\Debug\RandoSeed.csproj.AssemblyReference.cache
+E:\Users\timot\Source\Repos\RandoSeed\RandoSeed\RandoSeed\obj\Debug\RandoSeed.MainApp.resources
+E:\Users\timot\Source\Repos\RandoSeed\RandoSeed\RandoSeed\obj\Debug\RandoSeed.Properties.Resources.resources
+E:\Users\timot\Source\Repos\RandoSeed\RandoSeed\RandoSeed\obj\Debug\RandoSeed.csproj.GenerateResource.cache
+E:\Users\timot\Source\Repos\RandoSeed\RandoSeed\RandoSeed\obj\Debug\RandoSeed.csproj.CoreCompileInputs.cache
+E:\Users\timot\Source\Repos\RandoSeed\RandoSeed\RandoSeed\obj\Debug\RandoSeed.exe
+E:\Users\timot\Source\Repos\RandoSeed\RandoSeed\RandoSeed\obj\Debug\RandoSeed.pdb
