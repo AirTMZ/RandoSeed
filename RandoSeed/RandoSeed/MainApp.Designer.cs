@@ -29,38 +29,25 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainApp));
-            this.Reference = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.Reference)).BeginInit();
             this.SuspendLayout();
-            // 
-            // Reference
-            // 
-            this.Reference.Image = ((System.Drawing.Image)(resources.GetObject("Reference.Image")));
-            this.Reference.Location = new System.Drawing.Point(0, 0);
-            this.Reference.Name = "Reference";
-            this.Reference.Size = new System.Drawing.Size(600, 685);
-            this.Reference.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Reference.TabIndex = 1;
-            this.Reference.TabStop = false;
             // 
             // MainApp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(600, 685);
-            this.Controls.Add(this.Reference);
+            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MainApp";
             this.Text = "MainApp";
             this.Load += new System.EventHandler(this.MainApp_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.Reference)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox Reference;
     }
 }
 

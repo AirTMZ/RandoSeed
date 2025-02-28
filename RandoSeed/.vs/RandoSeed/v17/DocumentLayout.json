@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\Users\\timot\\Source\\Repos\\RandoSeed\\RandoSeed\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2E8865A9-8A4E-4F32-8351-2F638C0F0004}|RandoSeed\\RandoSeed.csproj|e:\\users\\timot\\source\\repos\\randoseed\\randoseed\\randoseed\\mainapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E8865A9-8A4E-4F32-8351-2F638C0F0004}|RandoSeed\\RandoSeed.csproj|solutionrelative:randoseed\\mainapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2E8865A9-8A4E-4F32-8351-2F638C0F0004}|RandoSeed\\RandoSeed.csproj|e:\\users\\timot\\source\\repos\\randoseed\\randoseed\\randoseed\\mainapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2E8865A9-8A4E-4F32-8351-2F638C0F0004}|RandoSeed\\RandoSeed.csproj|solutionrelative:randoseed\\mainapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8865A9-8A4E-4F32-8351-2F638C0F0004}|RandoSeed\\RandoSeed.csproj|E:\\Users\\timot\\Source\\Repos\\RandoSeed\\RandoSeed\\randoseed\\mainapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E8865A9-8A4E-4F32-8351-2F638C0F0004}|RandoSeed\\RandoSeed.csproj|solutionrelative:randoseed\\mainapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,24 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainApp.cs",
               "DocumentMoniker": "E:\\Users\\timot\\Source\\Repos\\RandoSeed\\RandoSeed\\RandoSeed\\MainApp.cs",
               "RelativeDocumentMoniker": "RandoSeed\\MainApp.cs",
               "ToolTip": "E:\\Users\\timot\\Source\\Repos\\RandoSeed\\RandoSeed\\RandoSeed\\MainApp.cs",
               "RelativeToolTip": "RandoSeed\\MainApp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-28T19:17:25.752Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainApp.cs [Design]",
               "DocumentMoniker": "E:\\Users\\timot\\Source\\Repos\\RandoSeed\\RandoSeed\\RandoSeed\\MainApp.cs",
               "RelativeDocumentMoniker": "RandoSeed\\MainApp.cs",
