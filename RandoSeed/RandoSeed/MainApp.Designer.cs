@@ -86,7 +86,7 @@
             this.textOutput.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textOutput.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(246)))));
-            this.textOutput.Location = new System.Drawing.Point(85, 648);
+            this.textOutput.Location = new System.Drawing.Point(85, 647);
             this.textOutput.Name = "textOutput";
             this.textOutput.ReadOnly = true;
             this.textOutput.Size = new System.Drawing.Size(248, 19);
