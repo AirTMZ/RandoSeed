@@ -59,17 +59,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -78,6 +79,66 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Full Page.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nav.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minimise.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nav1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MinimiseHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CloseHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CopyHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DownloadHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Full Page1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CheckboxNotSelected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CheckboxSelected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye_closed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RadioNotSelected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RadioSelected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye-closed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye_hover.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
