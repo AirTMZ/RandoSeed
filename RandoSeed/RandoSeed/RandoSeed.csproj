@@ -76,18 +76,14 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\Ubuntu-Bold.ttf" />
+    <None Include="Resources\Ubuntu-Medium.ttf" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Nav.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Minimise.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Close.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Nav1.png" />
@@ -97,12 +93,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Download.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\MinimiseHover.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\CloseHover.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\CopyHover.png" />
@@ -123,22 +113,52 @@
     <None Include="Resources\eye_closed.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\RadioNotSelected.png" />
+    <None Include="Resources\Full Page.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\RadioSelected.png" />
+    <None Include="Resources\Minimise.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\eye-closed.png" />
+    <None Include="Resources\MinimiseHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CloseHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\eye.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\eye-closed.png" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\eye_hover.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Full Page.png" />
+    <None Include="Resources\RadioHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CheckboxHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CheckboxHovered.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CheckboxSelectedHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RadioSelectedHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RadioNotSelected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RadioNotSelectedHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RadioSelected.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

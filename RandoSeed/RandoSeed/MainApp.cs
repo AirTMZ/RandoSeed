@@ -5,6 +5,8 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ToolTip;
+using System.Drawing.Text;
+using System.Runtime.InteropServices;
 
 namespace RandoSeed
 {
@@ -24,7 +26,8 @@ namespace RandoSeed
         {
             InitializeComponent();
             buttonClickInitialisation();
-            this.FormBorderStyle = FormBorderStyle.None; // Remove the form border to allow custom shapes
+            
+            this.FormBorderStyle = FormBorderStyle.None; // Remove the form border to allow custom shapesSetCustomFont();
             this.Load += MainApp_Load; // Subscribe to the Load event
 
             // Add event handlers for NavDraggable to enable dragging the form
@@ -37,9 +40,32 @@ namespace RandoSeed
             fadeOutTimer.Interval = fadeOutInterval;
             fadeOutTimer.Tick += FadeOutTimer_Tick;
         }
+        private void MainApp_Load(object sender, EventArgs e)
+        {
+            this.Hide(); // Hide the form during initialization
+            initialiseGraphics(); // Initialize custom graphics
+            SetCustomFont();
+            this.Show(); // Show the form after initialization
+        }
+        private void SetCustomFont()
+        {
+            // Load the font from resources
+            PrivateFontCollection privateFonts = new PrivateFontCollection();
+            int fontLength = Properties.Resources.Ubuntu_Bold.Length;
+            byte[] fontData = Properties.Resources.Ubuntu_Bold;
+            IntPtr fontPtr = Marshal.AllocCoTaskMem(fontLength);
+            Marshal.Copy(fontData, 0, fontPtr, fontLength);
+            privateFonts.AddMemoryFont(fontPtr, fontLength);
+            Marshal.FreeCoTaskMem(fontPtr);
+
+            // Set the custom font to textOutput with explicit FontStyle
+            textOutput.Font = new Font(privateFonts.Families[0], 12.0F, FontStyle.Bold);
+        }
+
 
         private void buttonClickInitialisation()
         {
+            // Add click event handlers for option buttons
             this.optionOneButton.Click += new System.EventHandler(this.optionButton_Click);
             this.optionTwoButton.Click += new System.EventHandler(this.optionButton_Click);
             this.optionThreeButton.Click += new System.EventHandler(this.optionButton_Click);
@@ -51,20 +77,56 @@ namespace RandoSeed
             this.optionNineButton.Click += new System.EventHandler(this.optionButton_Click);
             this.optionTenButton.Click += new System.EventHandler(this.optionButton_Click);
 
+            // Add mouse enter and leave event handlers for option buttons
+            this.optionOneButton.MouseEnter += new System.EventHandler(this.optionButton_MouseEnter);
+            this.optionOneButton.MouseLeave += new System.EventHandler(this.optionButton_MouseLeave);
+            this.optionTwoButton.MouseEnter += new System.EventHandler(this.optionButton_MouseEnter);
+            this.optionTwoButton.MouseLeave += new System.EventHandler(this.optionButton_MouseLeave);
+            this.optionThreeButton.MouseEnter += new System.EventHandler(this.optionButton_MouseEnter);
+            this.optionThreeButton.MouseLeave += new System.EventHandler(this.optionButton_MouseLeave);
+            this.optionFourButton.MouseEnter += new System.EventHandler(this.optionButton_MouseEnter);
+            this.optionFourButton.MouseLeave += new System.EventHandler(this.optionButton_MouseLeave);
+            this.optionFiveButton.MouseEnter += new System.EventHandler(this.optionButton_MouseEnter);
+            this.optionFiveButton.MouseLeave += new System.EventHandler(this.optionButton_MouseLeave);
+            this.optionSixButton.MouseEnter += new System.EventHandler(this.optionButton_MouseEnter);
+            this.optionSixButton.MouseLeave += new System.EventHandler(this.optionButton_MouseLeave);
+            this.optionSevenButton.MouseEnter += new System.EventHandler(this.optionButton_MouseEnter);
+            this.optionSevenButton.MouseLeave += new System.EventHandler(this.optionButton_MouseLeave);
+            this.optionEightButton.MouseEnter += new System.EventHandler(this.optionButton_MouseEnter);
+            this.optionEightButton.MouseLeave += new System.EventHandler(this.optionButton_MouseLeave);
+            this.optionNineButton.MouseEnter += new System.EventHandler(this.optionButton_MouseEnter);
+            this.optionNineButton.MouseLeave += new System.EventHandler(this.optionButton_MouseLeave);
+            this.optionTenButton.MouseEnter += new System.EventHandler(this.optionButton_MouseEnter);
+            this.optionTenButton.MouseLeave += new System.EventHandler(this.optionButton_MouseLeave);
+
+            // Add mouse enter and leave event handlers for toggleOptionsButton
+            this.toggleOptionsButton.MouseEnter += new System.EventHandler(this.toggleOptionsButton_MouseEnter);
+            this.toggleOptionsButton.MouseLeave += new System.EventHandler(this.toggleOptionsButton_MouseLeave);
+
+            // Add click event handlers for radio buttons
             this.optionOneRadio.Click += new System.EventHandler(this.radioButton_Click);
             this.optionTwoRadio.Click += new System.EventHandler(this.radioButton_Click);
             this.optionThreeRadio.Click += new System.EventHandler(this.radioButton_Click);
             this.optionFourRadio.Click += new System.EventHandler(this.radioButton_Click);
             this.optionFiveRadio.Click += new System.EventHandler(this.radioButton_Click);
             this.optionSixRadio.Click += new System.EventHandler(this.radioButton_Click);
+
+            // Add mouse enter and leave event handlers for radio buttons
+            this.optionOneRadio.MouseEnter += new System.EventHandler(this.radioButton_MouseEnter);
+            this.optionOneRadio.MouseLeave += new System.EventHandler(this.radioButton_MouseLeave);
+            this.optionTwoRadio.MouseEnter += new System.EventHandler(this.radioButton_MouseEnter);
+            this.optionTwoRadio.MouseLeave += new System.EventHandler(this.radioButton_MouseLeave);
+            this.optionThreeRadio.MouseEnter += new System.EventHandler(this.radioButton_MouseEnter);
+            this.optionThreeRadio.MouseLeave += new System.EventHandler(this.radioButton_MouseLeave);
+            this.optionFourRadio.MouseEnter += new System.EventHandler(this.radioButton_MouseEnter);
+            this.optionFourRadio.MouseLeave += new System.EventHandler(this.radioButton_MouseLeave);
+            this.optionFiveRadio.MouseEnter += new System.EventHandler(this.radioButton_MouseEnter);
+            this.optionFiveRadio.MouseLeave += new System.EventHandler(this.radioButton_MouseLeave);
+            this.optionSixRadio.MouseEnter += new System.EventHandler(this.radioButton_MouseEnter);
+            this.optionSixRadio.MouseLeave += new System.EventHandler(this.radioButton_MouseLeave);
         }
 
-        private void MainApp_Load(object sender, EventArgs e)
-        {
-            this.Hide(); // Hide the form during initialization
-            initialiseGraphics(); // Initialize custom graphics
-            this.Show(); // Show the form after initialization
-        }
+
 
         private void initialiseGraphics()
         {
@@ -308,9 +370,81 @@ namespace RandoSeed
             startButton.Image = Properties.Resources.Start;
         }
 
+        private void optionButton_MouseEnter(object sender, EventArgs e)
+        {
+            PictureBox optionButton = sender as PictureBox;
+            if (optionButton != null && optionButton.Tag as string == "not_selected")
+            {
+                optionButton.Image = Properties.Resources.CheckboxHover;
+            }
+            else if (optionButton != null && optionButton.Tag as string == "selected")
+            {
+                optionButton.Image = Properties.Resources.CheckboxSelectedHover;
+            }
+        }
 
+        private void optionButton_MouseLeave(object sender, EventArgs e)
+        {
+            PictureBox optionButton = sender as PictureBox;
+            if (optionButton != null && optionButton.Tag as string == "not_selected")
+            {
+                optionButton.Image = Properties.Resources.CheckboxNotSelected;
+            }
+            else if (optionButton != null && optionButton.Tag as string == "selected")
+            {
+                optionButton.Image = Properties.Resources.CheckboxSelected;
+            }
+        }
 
+        private void toggleOptionsButton_MouseEnter(object sender, EventArgs e)
+        {
+            if (toggleOptionsButton.Tag as string == "toggle_off")
+            {
+                toggleOptionsButton.Image = Properties.Resources.CheckboxHover;
+            }
+            else if (toggleOptionsButton.Tag as string == "toggle_on")
+            {
+                toggleOptionsButton.Image = Properties.Resources.CheckboxSelectedHover;
+            }
+        }
 
+        private void toggleOptionsButton_MouseLeave(object sender, EventArgs e)
+        {
+            if (toggleOptionsButton.Tag as string == "toggle_off")
+            {
+                toggleOptionsButton.Image = Properties.Resources.CheckboxNotSelected;
+            }
+            else if (toggleOptionsButton.Tag as string == "toggle_on")
+            {
+                toggleOptionsButton.Image = Properties.Resources.CheckboxSelected;
+            }
+        }
+
+        private void radioButton_MouseEnter(object sender, EventArgs e)
+        {
+            PictureBox radioButton = sender as PictureBox;
+            if (radioButton != null && radioButton.Tag as string == "not_selected")
+            {
+                radioButton.Image = Properties.Resources.RadioNotSelectedHover;
+            }
+            else if (radioButton != null && radioButton.Tag as string == "selected")
+            {
+                radioButton.Image = Properties.Resources.RadioSelectedHover;
+            }
+        }
+
+        private void radioButton_MouseLeave(object sender, EventArgs e)
+        {
+            PictureBox radioButton = sender as PictureBox;
+            if (radioButton != null && radioButton.Tag as string == "not_selected")
+            {
+                radioButton.Image = Properties.Resources.RadioNotSelected;
+            }
+            else if (radioButton != null && radioButton.Tag as string == "selected")
+            {
+                radioButton.Image = Properties.Resources.RadioSelected;
+            }
+        }
 
         private void startButton_Click(object sender, EventArgs e)
         {
@@ -322,5 +456,6 @@ namespace RandoSeed
             // Copy the text from textOutput to the clipboard
             Clipboard.SetText(textOutput.Text);
         }
+
     }
 }

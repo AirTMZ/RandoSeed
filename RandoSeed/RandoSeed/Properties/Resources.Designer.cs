@@ -63,6 +63,16 @@ namespace RandoSeed.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap CheckboxHover {
+            get {
+                object obj = ResourceManager.GetObject("CheckboxHover", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap CheckboxNotSelected {
             get {
                 object obj = ResourceManager.GetObject("CheckboxNotSelected", resourceCulture);
@@ -76,6 +86,16 @@ namespace RandoSeed.Properties {
         internal static System.Drawing.Bitmap CheckboxSelected {
             get {
                 object obj = ResourceManager.GetObject("CheckboxSelected", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CheckboxSelectedHover {
+            get {
+                object obj = ResourceManager.GetObject("CheckboxSelectedHover", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -203,9 +223,29 @@ namespace RandoSeed.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap RadioNotSelectedHover {
+            get {
+                object obj = ResourceManager.GetObject("RadioNotSelectedHover", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap RadioSelected {
             get {
                 object obj = ResourceManager.GetObject("RadioSelected", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RadioSelectedHover {
+            get {
+                object obj = ResourceManager.GetObject("RadioSelectedHover", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -227,6 +267,16 @@ namespace RandoSeed.Properties {
             get {
                 object obj = ResourceManager.GetObject("StartHover", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Ubuntu_Bold {
+            get {
+                object obj = ResourceManager.GetObject("Ubuntu_Bold", resourceCulture);
+                return ((byte[])(obj));
             }
         }
     }

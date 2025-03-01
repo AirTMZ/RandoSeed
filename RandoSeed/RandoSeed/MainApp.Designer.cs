@@ -82,15 +82,16 @@
             // 
             // textOutput
             // 
-            this.textOutput.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(246)))));
+            this.textOutput.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(42)))), ((int)(((byte)(42)))));
             this.textOutput.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textOutput.Location = new System.Drawing.Point(67, 646);
+            this.textOutput.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(246)))));
+            this.textOutput.Location = new System.Drawing.Point(85, 648);
             this.textOutput.Name = "textOutput";
             this.textOutput.ReadOnly = true;
             this.textOutput.Size = new System.Drawing.Size(248, 19);
             this.textOutput.TabIndex = 7;
-            this.textOutput.Text = "No Output Yet";
+            this.textOutput.Text = "Nothing To See Here Just Yet";
             this.textOutput.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textOutput.UseSystemPasswordChar = true;
             // 
@@ -175,7 +176,7 @@
             // toggleOptionsButton
             // 
             this.toggleOptionsButton.Image = global::RandoSeed.Properties.Resources.CheckboxNotSelected;
-            this.toggleOptionsButton.Location = new System.Drawing.Point(396, 100);
+            this.toggleOptionsButton.Location = new System.Drawing.Point(398, 100);
             this.toggleOptionsButton.Name = "toggleOptionsButton";
             this.toggleOptionsButton.Size = new System.Drawing.Size(16, 16);
             this.toggleOptionsButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -187,7 +188,7 @@
             // optionSevenButton
             // 
             this.optionSevenButton.Image = global::RandoSeed.Properties.Resources.CheckboxNotSelected;
-            this.optionSevenButton.Location = new System.Drawing.Point(396, 346);
+            this.optionSevenButton.Location = new System.Drawing.Point(398, 346);
             this.optionSevenButton.Name = "optionSevenButton";
             this.optionSevenButton.Size = new System.Drawing.Size(16, 16);
             this.optionSevenButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -198,7 +199,7 @@
             // optionSixButton
             // 
             this.optionSixButton.Image = global::RandoSeed.Properties.Resources.CheckboxNotSelected;
-            this.optionSixButton.Location = new System.Drawing.Point(396, 310);
+            this.optionSixButton.Location = new System.Drawing.Point(398, 310);
             this.optionSixButton.Name = "optionSixButton";
             this.optionSixButton.Size = new System.Drawing.Size(16, 16);
             this.optionSixButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -209,7 +210,7 @@
             // optionFourButton
             // 
             this.optionFourButton.Image = global::RandoSeed.Properties.Resources.CheckboxNotSelected;
-            this.optionFourButton.Location = new System.Drawing.Point(396, 238);
+            this.optionFourButton.Location = new System.Drawing.Point(398, 238);
             this.optionFourButton.Name = "optionFourButton";
             this.optionFourButton.Size = new System.Drawing.Size(16, 16);
             this.optionFourButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -220,7 +221,7 @@
             // optionTenButton
             // 
             this.optionTenButton.Image = global::RandoSeed.Properties.Resources.CheckboxNotSelected;
-            this.optionTenButton.Location = new System.Drawing.Point(396, 452);
+            this.optionTenButton.Location = new System.Drawing.Point(398, 452);
             this.optionTenButton.Name = "optionTenButton";
             this.optionTenButton.Size = new System.Drawing.Size(16, 16);
             this.optionTenButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -231,7 +232,7 @@
             // optionNineButton
             // 
             this.optionNineButton.Image = global::RandoSeed.Properties.Resources.CheckboxNotSelected;
-            this.optionNineButton.Location = new System.Drawing.Point(396, 418);
+            this.optionNineButton.Location = new System.Drawing.Point(398, 418);
             this.optionNineButton.Name = "optionNineButton";
             this.optionNineButton.Size = new System.Drawing.Size(16, 16);
             this.optionNineButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -242,7 +243,7 @@
             // optionEightButton
             // 
             this.optionEightButton.Image = global::RandoSeed.Properties.Resources.CheckboxNotSelected;
-            this.optionEightButton.Location = new System.Drawing.Point(396, 382);
+            this.optionEightButton.Location = new System.Drawing.Point(398, 382);
             this.optionEightButton.Name = "optionEightButton";
             this.optionEightButton.Size = new System.Drawing.Size(16, 16);
             this.optionEightButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -253,7 +254,7 @@
             // optionFiveButton
             // 
             this.optionFiveButton.Image = global::RandoSeed.Properties.Resources.CheckboxNotSelected;
-            this.optionFiveButton.Location = new System.Drawing.Point(396, 274);
+            this.optionFiveButton.Location = new System.Drawing.Point(398, 274);
             this.optionFiveButton.Name = "optionFiveButton";
             this.optionFiveButton.Size = new System.Drawing.Size(16, 16);
             this.optionFiveButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -264,7 +265,7 @@
             // optionThreeButton
             // 
             this.optionThreeButton.Image = global::RandoSeed.Properties.Resources.CheckboxNotSelected;
-            this.optionThreeButton.Location = new System.Drawing.Point(396, 202);
+            this.optionThreeButton.Location = new System.Drawing.Point(398, 202);
             this.optionThreeButton.Name = "optionThreeButton";
             this.optionThreeButton.Size = new System.Drawing.Size(16, 16);
             this.optionThreeButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -275,7 +276,7 @@
             // optionTwoButton
             // 
             this.optionTwoButton.Image = global::RandoSeed.Properties.Resources.CheckboxNotSelected;
-            this.optionTwoButton.Location = new System.Drawing.Point(396, 165);
+            this.optionTwoButton.Location = new System.Drawing.Point(398, 165);
             this.optionTwoButton.Name = "optionTwoButton";
             this.optionTwoButton.Size = new System.Drawing.Size(16, 16);
             this.optionTwoButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -286,7 +287,7 @@
             // optionOneButton
             // 
             this.optionOneButton.Image = global::RandoSeed.Properties.Resources.CheckboxNotSelected;
-            this.optionOneButton.Location = new System.Drawing.Point(396, 130);
+            this.optionOneButton.Location = new System.Drawing.Point(398, 130);
             this.optionOneButton.Name = "optionOneButton";
             this.optionOneButton.Size = new System.Drawing.Size(16, 16);
             this.optionOneButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -326,7 +327,7 @@
             // 
             this.copyButton.BackColor = System.Drawing.Color.Transparent;
             this.copyButton.Image = global::RandoSeed.Properties.Resources.Copy;
-            this.copyButton.Location = new System.Drawing.Point(382, 638);
+            this.copyButton.Location = new System.Drawing.Point(386, 638);
             this.copyButton.Name = "copyButton";
             this.copyButton.Size = new System.Drawing.Size(38, 38);
             this.copyButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
