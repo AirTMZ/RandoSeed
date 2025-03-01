@@ -110,7 +110,7 @@
             // optionSixRadio
             // 
             this.optionSixRadio.Image = global::RandoSeed.Properties.Resources.RadioNotSelected;
-            this.optionSixRadio.Location = new System.Drawing.Point(333, 578);
+            this.optionSixRadio.Location = new System.Drawing.Point(328, 577);
             this.optionSixRadio.Name = "optionSixRadio";
             this.optionSixRadio.Size = new System.Drawing.Size(20, 20);
             this.optionSixRadio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -121,7 +121,7 @@
             // optionFiveRadio
             // 
             this.optionFiveRadio.Image = global::RandoSeed.Properties.Resources.RadioNotSelected;
-            this.optionFiveRadio.Location = new System.Drawing.Point(333, 550);
+            this.optionFiveRadio.Location = new System.Drawing.Point(328, 549);
             this.optionFiveRadio.Name = "optionFiveRadio";
             this.optionFiveRadio.Size = new System.Drawing.Size(20, 20);
             this.optionFiveRadio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -132,7 +132,7 @@
             // optionFourRadio
             // 
             this.optionFourRadio.Image = global::RandoSeed.Properties.Resources.RadioNotSelected;
-            this.optionFourRadio.Location = new System.Drawing.Point(333, 522);
+            this.optionFourRadio.Location = new System.Drawing.Point(328, 521);
             this.optionFourRadio.Name = "optionFourRadio";
             this.optionFourRadio.Size = new System.Drawing.Size(20, 20);
             this.optionFourRadio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -143,7 +143,7 @@
             // optionThreeRadio
             // 
             this.optionThreeRadio.Image = global::RandoSeed.Properties.Resources.RadioNotSelected;
-            this.optionThreeRadio.Location = new System.Drawing.Point(141, 578);
+            this.optionThreeRadio.Location = new System.Drawing.Point(143, 577);
             this.optionThreeRadio.Name = "optionThreeRadio";
             this.optionThreeRadio.Size = new System.Drawing.Size(20, 20);
             this.optionThreeRadio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -154,7 +154,7 @@
             // optionTwoRadio
             // 
             this.optionTwoRadio.Image = global::RandoSeed.Properties.Resources.RadioNotSelected;
-            this.optionTwoRadio.Location = new System.Drawing.Point(141, 550);
+            this.optionTwoRadio.Location = new System.Drawing.Point(143, 549);
             this.optionTwoRadio.Name = "optionTwoRadio";
             this.optionTwoRadio.Size = new System.Drawing.Size(20, 20);
             this.optionTwoRadio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -165,7 +165,7 @@
             // optionOneRadio
             // 
             this.optionOneRadio.Image = global::RandoSeed.Properties.Resources.RadioSelected;
-            this.optionOneRadio.Location = new System.Drawing.Point(141, 522);
+            this.optionOneRadio.Location = new System.Drawing.Point(143, 521);
             this.optionOneRadio.Name = "optionOneRadio";
             this.optionOneRadio.Size = new System.Drawing.Size(20, 20);
             this.optionOneRadio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;

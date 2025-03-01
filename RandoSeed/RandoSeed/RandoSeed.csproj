@@ -113,9 +113,6 @@
     <None Include="Resources\eye_closed.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Full Page.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Minimise.png" />
   </ItemGroup>
   <ItemGroup>
@@ -159,6 +156,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\RadioSelected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Full Page.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
