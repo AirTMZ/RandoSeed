@@ -155,7 +155,7 @@ namespace RandoSeed.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap Full_Page {
             get {
-                object obj = ResourceManager.GetObject("Full Page", resourceCulture);
+                object obj = ResourceManager.GetObject("Full_Page", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainApp));
             this.textOutput = new System.Windows.Forms.TextBox();
             this.tabRemover = new System.Windows.Forms.TextBox();
             this.optionSixRadio = new System.Windows.Forms.PictureBox();
@@ -176,7 +175,7 @@
             // toggleOptionsButton
             // 
             this.toggleOptionsButton.Image = global::RandoSeed.Properties.Resources.CheckboxNotSelected;
-            this.toggleOptionsButton.Location = new System.Drawing.Point(423, 100);
+            this.toggleOptionsButton.Location = new System.Drawing.Point(396, 100);
             this.toggleOptionsButton.Name = "toggleOptionsButton";
             this.toggleOptionsButton.Size = new System.Drawing.Size(16, 16);
             this.toggleOptionsButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -376,7 +375,7 @@
             // 
             // backFrame
             // 
-            this.backFrame.Image = ((System.Drawing.Image)(resources.GetObject("backFrame.Image")));
+            this.backFrame.Image = global::RandoSeed.Properties.Resources.Full_Page;
             this.backFrame.Location = new System.Drawing.Point(0, 0);
             this.backFrame.Name = "backFrame";
             this.backFrame.Size = new System.Drawing.Size(500, 700);
