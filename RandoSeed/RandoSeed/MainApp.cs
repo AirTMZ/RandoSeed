@@ -20,12 +20,6 @@ namespace RandoSeed
         private const int fadeOutInterval = 1; // Interval between opacity changes in milliseconds
         private const double opacityDecrement = 0.1; // Amount to decrease opacity each interval
 
-        private Timer zoomTimer;
-        private const int zoomInterval = 10; // Interval for zoom effect in milliseconds
-        private const float zoomIncrement = 0.05f; // Increment for zoom effect
-        private bool isZoomingIn = false;
-        private bool isZoomingOut = false;
-
         public MainApp()
         {
             InitializeComponent();
@@ -48,11 +42,6 @@ namespace RandoSeed
             clipboardTimer = new Timer();
             clipboardTimer.Interval = clipboardVisibleDuration;
             clipboardTimer.Tick += ClipboardTimer_Tick;
-
-            // Initialize the zoom timer
-            zoomTimer = new Timer();
-            zoomTimer.Interval = zoomInterval;
-            zoomTimer.Tick += ZoomTimer_Tick;
         }
 
         private void MainApp_Load(object sender, EventArgs e)
@@ -476,49 +465,18 @@ namespace RandoSeed
             // Copy the text from textOutput to the clipboard
             Clipboard.SetText(textOutput.Text);
 
-            // Make clipboardNotif visible and start the zoom-in effect
+            // Make clipboardNotif visible
             clipboardNotif.Visible = true;
-            isZoomingIn = true;
-            isZoomingOut = false;
-            clipboardNotif.Size = new Size((int)(clipboardNotif.Width * 0.01), (int)(clipboardNotif.Height * 0.01));
-            zoomTimer.Start();
 
             // Restart the clipboard timer
             clipboardTimer.Stop();
             clipboardTimer.Start();
         }
 
-        private void ZoomTimer_Tick(object sender, EventArgs e)
-        {
-            if (isZoomingIn)
-            {
-                // Zoom in effect
-                clipboardNotif.Size = new Size((int)(clipboardNotif.Width * (1 + zoomIncrement)), (int)(clipboardNotif.Height * (1 + zoomIncrement)));
-                if (clipboardNotif.Width >= this.Width)
-                {
-                    isZoomingIn = false;
-                    zoomTimer.Stop();
-                }
-            }
-            else if (isZoomingOut)
-            {
-                // Zoom out effect
-                clipboardNotif.Size = new Size((int)(clipboardNotif.Width * (1 - zoomIncrement)), (int)(clipboardNotif.Height * (1 - zoomIncrement)));
-                if (clipboardNotif.Width <= this.Width * 0.01)
-                {
-                    isZoomingOut = false;
-                    clipboardNotif.Visible = false;
-                    zoomTimer.Stop();
-                }
-            }
-        }
-
         private void ClipboardTimer_Tick(object sender, EventArgs e)
         {
-            // Start the zoom-out effect
-            isZoomingOut = true;
-            isZoomingIn = false;
-            zoomTimer.Start();
+            // Hide clipboardNotif after the timer elapses
+            clipboardNotif.Visible = false;
             clipboardTimer.Stop();
         }
 
