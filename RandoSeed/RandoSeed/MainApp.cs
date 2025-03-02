@@ -1,10 +1,8 @@
-﻿using RandoSeed.Properties;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.ToolTip;
 using System.Drawing.Text;
 using System.Runtime.InteropServices;
 
@@ -26,8 +24,8 @@ namespace RandoSeed
         {
             InitializeComponent();
             buttonClickInitialisation();
-            
-            this.FormBorderStyle = FormBorderStyle.None; // Remove the form border to allow custom shapesSetCustomFont();
+
+            this.FormBorderStyle = FormBorderStyle.None; // Remove the form border to allow custom shapes
             this.Load += MainApp_Load; // Subscribe to the Load event
 
             // Add event handlers for NavDraggable to enable dragging the form
@@ -39,7 +37,13 @@ namespace RandoSeed
             fadeOutTimer = new Timer();
             fadeOutTimer.Interval = fadeOutInterval;
             fadeOutTimer.Tick += FadeOutTimer_Tick;
+
+            // Initialize the clipboard timer
+            clipboardTimer = new Timer();
+            clipboardTimer.Interval = clipboardVisibleDuration;
+            clipboardTimer.Tick += ClipboardTimer_Tick;
         }
+
         private void MainApp_Load(object sender, EventArgs e)
         {
             this.Hide(); // Hide the form during initialization
@@ -47,6 +51,7 @@ namespace RandoSeed
             SetCustomFont();
             this.Show(); // Show the form after initialization
         }
+
         private void SetCustomFont()
         {
             // Load the font from resources
@@ -61,7 +66,6 @@ namespace RandoSeed
             // Set the custom font to textOutput with explicit FontStyle
             textOutput.Font = new Font(privateFonts.Families[0], 12.0F, FontStyle.Bold);
         }
-
 
         private void buttonClickInitialisation()
         {
@@ -141,12 +145,14 @@ namespace RandoSeed
             minimiseButton.BackColor = System.Drawing.Color.Transparent;
             copyButton.BackColor = System.Drawing.Color.Transparent;
             startButton.BackColor = System.Drawing.Color.Transparent;
+            clipboardNotif.BackColor = System.Drawing.Color.Transparent;
 
             // Set the parent of the buttons to NavDraggable to ensure transparency
             closeButton.Parent = NavDraggable;
             minimiseButton.Parent = NavDraggable;
             copyButton.Parent = backFrame;
             startButton.Parent = backFrame;
+            clipboardNotif.Parent = backFrame;
         }
 
         private GraphicsPath GetRoundedRectPath(Rectangle rect, int radius)
@@ -451,10 +457,27 @@ namespace RandoSeed
             MessageBox.Show("Start button clicked!");
         }
 
+        private Timer clipboardTimer;
+        private const int clipboardVisibleDuration = 1500; // Duration for visibility in milliseconds
+
         private void copyButton_Click(object sender, EventArgs e)
         {
             // Copy the text from textOutput to the clipboard
             Clipboard.SetText(textOutput.Text);
+
+            // Make clipboardNotif visible
+            clipboardNotif.Visible = true;
+
+            // Restart the clipboard timer
+            clipboardTimer.Stop();
+            clipboardTimer.Start();
+        }
+
+        private void ClipboardTimer_Tick(object sender, EventArgs e)
+        {
+            // Hide clipboardNotif after the timer elapses
+            clipboardNotif.Visible = false;
+            clipboardTimer.Stop();
         }
 
     }

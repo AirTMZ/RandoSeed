@@ -28,8 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainApp));
             this.textOutput = new System.Windows.Forms.TextBox();
             this.tabRemover = new System.Windows.Forms.TextBox();
+            this.clipboardNotif = new System.Windows.Forms.PictureBox();
             this.optionSixRadio = new System.Windows.Forms.PictureBox();
             this.optionFiveRadio = new System.Windows.Forms.PictureBox();
             this.optionFourRadio = new System.Windows.Forms.PictureBox();
@@ -54,6 +56,7 @@
             this.minimiseButton = new System.Windows.Forms.PictureBox();
             this.NavDraggable = new System.Windows.Forms.PictureBox();
             this.backFrame = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.clipboardNotif)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.optionSixRadio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.optionFiveRadio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.optionFourRadio)).BeginInit();
@@ -106,6 +109,17 @@
             this.tabRemover.TabIndex = 6;
             this.tabRemover.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tabRemover.UseSystemPasswordChar = true;
+            // 
+            // clipboardNotif
+            // 
+            this.clipboardNotif.Image = global::RandoSeed.Properties.Resources.Copied_to_Clipboard_;
+            this.clipboardNotif.Location = new System.Drawing.Point(380, 589);
+            this.clipboardNotif.Name = "clipboardNotif";
+            this.clipboardNotif.Size = new System.Drawing.Size(49, 21);
+            this.clipboardNotif.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.clipboardNotif.TabIndex = 33;
+            this.clipboardNotif.TabStop = false;
+            this.clipboardNotif.Visible = false;
             // 
             // optionSixRadio
             // 
@@ -367,7 +381,7 @@
             // 
             // NavDraggable
             // 
-            this.NavDraggable.Image = global::RandoSeed.Properties.Resources.Nav;
+            this.NavDraggable.Image = ((System.Drawing.Image)(resources.GetObject("NavDraggable.Image")));
             this.NavDraggable.Location = new System.Drawing.Point(0, 0);
             this.NavDraggable.Name = "NavDraggable";
             this.NavDraggable.Size = new System.Drawing.Size(500, 77);
@@ -389,6 +403,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
             this.ClientSize = new System.Drawing.Size(500, 700);
+            this.Controls.Add(this.clipboardNotif);
             this.Controls.Add(this.optionSixRadio);
             this.Controls.Add(this.optionFiveRadio);
             this.Controls.Add(this.optionFourRadio);
@@ -420,6 +435,7 @@
             this.Name = "MainApp";
             this.Text = "MainApp";
             this.Load += new System.EventHandler(this.MainApp_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.clipboardNotif)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.optionSixRadio)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.optionFiveRadio)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.optionFourRadio)).EndInit();
@@ -476,6 +492,7 @@
         private System.Windows.Forms.PictureBox optionFourRadio;
         private System.Windows.Forms.PictureBox minimiseButton;
         private System.Windows.Forms.PictureBox backFrame;
+        private System.Windows.Forms.PictureBox clipboardNotif;
     }
 }
 

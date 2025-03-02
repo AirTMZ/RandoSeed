@@ -124,14 +124,23 @@
   <data name="CloseHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CloseHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="RadioNotSelectedHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RadioNotSelectedHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RadioSelectedHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RadioSelectedHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="CopyHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CopyHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MinimiseHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MinimiseHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Nav" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Nav1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="eye_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eye_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Full_Page" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full Page.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="CheckboxNotSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CheckboxNotSelected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,8 +160,17 @@
   <data name="CheckboxSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CheckboxSelected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Ubuntu_Bold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ubuntu-Bold.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="RadioNotSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\RadioNotSelected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CheckboxSelectedHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CheckboxSelectedHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CheckboxHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CheckboxHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="RadioSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\RadioSelected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,25 +181,10 @@
   <data name="Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="eye_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\eye_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Copied to Clipboard!" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Copied to Clipboard!.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Full_Page" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Full Page.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CheckboxHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CheckboxHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CheckboxSelectedHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CheckboxSelectedHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RadioNotSelectedHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RadioNotSelectedHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RadioSelectedHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RadioSelectedHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ubuntu_Bold" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ubuntu-Bold.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Nav" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nav.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
