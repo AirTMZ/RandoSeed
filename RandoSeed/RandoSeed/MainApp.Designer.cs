@@ -94,7 +94,7 @@
             this.textOutput.ReadOnly = true;
             this.textOutput.Size = new System.Drawing.Size(248, 19);
             this.textOutput.TabIndex = 7;
-            this.textOutput.Text = "Nothing To See Here Just Yet";
+            this.textOutput.Text = "Nothing To See Here";
             this.textOutput.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textOutput.UseSystemPasswordChar = true;
             // 

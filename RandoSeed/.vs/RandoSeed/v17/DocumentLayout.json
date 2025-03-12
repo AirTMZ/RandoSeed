@@ -1,21 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Users\\timot\\Source\\Repos\\RandoSeed\\RandoSeed\\",
+  "WorkspaceRootPath": "Z:\\Dev\\GitHub\\RandoSeed\\RandoSeed\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2E8865A9-8A4E-4F32-8351-2F638C0F0004}|RandoSeed\\RandoSeed.csproj|E:\\Users\\timot\\Source\\Repos\\RandoSeed\\RandoSeed\\randoseed\\mainapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2E8865A9-8A4E-4F32-8351-2F638C0F0004}|RandoSeed\\RandoSeed.csproj|z:\\dev\\github\\randoseed\\randoseed\\randoseed\\mainapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E8865A9-8A4E-4F32-8351-2F638C0F0004}|RandoSeed\\RandoSeed.csproj|solutionrelative:randoseed\\mainapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E8865A9-8A4E-4F32-8351-2F638C0F0004}|RandoSeed\\RandoSeed.csproj|e:\\users\\timot\\source\\repos\\randoseed\\randoseed\\randoseed\\mainapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2E8865A9-8A4E-4F32-8351-2F638C0F0004}|RandoSeed\\RandoSeed.csproj|solutionrelative:randoseed\\mainapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|RandoSeed||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E8865A9-8A4E-4F32-8351-2F638C0F0004}|RandoSeed\\RandoSeed.csproj|e:\\users\\timot\\source\\repos\\randoseed\\randoseed\\randoseed\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{2E8865A9-8A4E-4F32-8351-2F638C0F0004}|RandoSeed\\RandoSeed.csproj|solutionrelative:randoseed\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+      "AbsoluteMoniker": "D:0:0:{2E8865A9-8A4E-4F32-8351-2F638C0F0004}|RandoSeed\\RandoSeed.csproj|Z:\\Dev\\GitHub\\RandoSeed\\RandoSeed\\randoseed\\mainapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2E8865A9-8A4E-4F32-8351-2F638C0F0004}|RandoSeed\\RandoSeed.csproj|solutionrelative:randoseed\\mainapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,38 +27,36 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainApp.cs",
-              "DocumentMoniker": "E:\\Users\\timot\\Source\\Repos\\RandoSeed\\RandoSeed\\RandoSeed\\MainApp.cs",
+              "DocumentMoniker": "Z:\\Dev\\GitHub\\RandoSeed\\RandoSeed\\RandoSeed\\MainApp.cs",
               "RelativeDocumentMoniker": "RandoSeed\\MainApp.cs",
-              "ToolTip": "E:\\Users\\timot\\Source\\Repos\\RandoSeed\\RandoSeed\\RandoSeed\\MainApp.cs",
+              "ToolTip": "Z:\\Dev\\GitHub\\RandoSeed\\RandoSeed\\RandoSeed\\MainApp.cs",
               "RelativeToolTip": "RandoSeed\\MainApp.cs",
-              "ViewState": "AgIAALABAAAAAAAAAAAuwMwBAABlAAAAAAAAAA==",
+              "ViewState": "AgIAAFoAAAAA8MzMzMwOwHwAAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-28T19:17:25.752Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainApp.cs [Design]",
-              "DocumentMoniker": "E:\\Users\\timot\\Source\\Repos\\RandoSeed\\RandoSeed\\RandoSeed\\MainApp.cs",
+              "DocumentMoniker": "Z:\\Dev\\GitHub\\RandoSeed\\RandoSeed\\RandoSeed\\MainApp.cs",
               "RelativeDocumentMoniker": "RandoSeed\\MainApp.cs",
-              "ToolTip": "E:\\Users\\timot\\Source\\Repos\\RandoSeed\\RandoSeed\\RandoSeed\\MainApp.cs [Design]",
+              "ToolTip": "Z:\\Dev\\GitHub\\RandoSeed\\RandoSeed\\RandoSeed\\MainApp.cs [Design]",
               "RelativeToolTip": "RandoSeed\\MainApp.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T23:37:53.693Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-02-28T23:37:53.693Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "RandoSeed",
-              "DocumentMoniker": "E:\\Users\\timot\\Source\\Repos\\RandoSeed\\RandoSeed\\RandoSeed\\RandoSeed.csproj",
+              "DocumentMoniker": "Z:\\Dev\\GitHub\\RandoSeed\\RandoSeed\\RandoSeed\\RandoSeed.csproj",
               "RelativeDocumentMoniker": "RandoSeed\\RandoSeed.csproj",
-              "ToolTip": "E:\\Users\\timot\\Source\\Repos\\RandoSeed\\RandoSeed\\RandoSeed\\RandoSeed.csproj",
+              "ToolTip": "Z:\\Dev\\GitHub\\RandoSeed\\RandoSeed\\RandoSeed\\RandoSeed.csproj",
               "RelativeToolTip": "RandoSeed\\RandoSeed.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-01T01:02:11.451Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-01T01:02:11.451Z"
             }
           ]
         }
